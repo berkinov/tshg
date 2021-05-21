@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  background: #fff;
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+label {
+   display: block;
+}
+h1 {
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 6px;
+   font-size: 40px;
+   color: #000;
+   margin-top: 15px;
+   margin-bottom: 30px;
+}
+h1::selection {
+   background: #000;
+   color: #fff;
+}
+input[type="range"] {
+   width: 100%;
+}
+input[type="color"] {
+   border: none;
+   background-color: transparent;
+   width: 55px;
+   height: 55px;
+   padding: 0;
+   margin-bottom: 15px;
+}
+input[type="color"]:hover {
+   cursor: pointer;
+}
+textarea {
+   width: 100%;
+   resize: none;
+   min-width: 300px;
+   margin-bottom: 15px;
+   font-size: 13px;
+   padding: 10px 20px;
+}
+.card {
+   height: 100%;
+}
+.card-header {
+   font-weight: bold;
+   color: #fff;
+}
+.row > div {
+   margin-bottom: 25px;
+}
